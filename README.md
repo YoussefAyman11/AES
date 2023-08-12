@@ -11,6 +11,7 @@ Design of an RTL block that implements the AES-128 encryption operation which ha
 ### Data And Key Representation
 the plaintext is organized in a 4x4 matrix that is called the state matrix, while the key is organized in a 4x4 matrix that is termed the key matrix
 Input data and encryption key is in the form 𝑏0 𝑏1,…,𝑏15 (where 𝑏0  is the first input and the MSB), and is organized to be:
+
 ![Untitled](https://github.com/YoussefAyman11/AES/assets/104683453/1428b52c-0dc9-45a0-88b8-a5877ebdd86f)
 
 ### The Encryption And Decryption Processes
